@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Portal</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body { background-image: url("./images/bg-texture.png") }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>eTUTOR</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!--========================== END OF NAVBAR ============================-->
+
+
+
+
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Develop critical tech skills and transform your goals into gains.</h1>
+                <p>
+                    eTutor empowers you to upgrade your skills, upskill teams, innovate smarter, build tech fluency, collaborate better, onboard quicker, and streamline processes.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--========================== END OF HEADER ============================-->
+
+
+
+
+
+
+
+    <section class="categories">
+        <div class="container categories__container">
+          <div class="categories__left">
+            <h1>Categories</h1>
+            <p>
+                Courses You Can Complete in a Day.</p>
+                Over 450 courses in topics like business analytics, graphic design, Python, and more.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+  
+          <div class="categories__right">
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-bitcoin-circle"></i>
+              </span>
+              <h5>Blockchain</h5>
+              <p>Blockchain Technology, Blockchain of Smart Contracts, Ethereum Blockchain, Blockhain Architecture of Hyperledger & Corda.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-palette"></i>
+              </span>
+              <h5>Graphic Design</h5>
+              <p>The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-usd-circle"></i>
+              </span>
+              <h5>Finance</h5>
+              <p>Concepts & Tools of Financial Analysis, Valuation, Investing, Money Management, and Decision Making. DCF,NPV, IRR & more.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-megaphone"></i>
+              </span>
+              <h5>Marketing</h5>
+              <p>Master Digital Marketing Strategy, Social Media Marketing, SEO, YouTube, Email, Facebook Marketing, Analytics & More!.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-music"></i>
+              </span>
+              <h5>Music</h5>
+              <p>Learn The Tried And Tested Process For Composing Exceptional Melodies | Melodic Music Composition.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-puzzle-piece"></i>
+              </span>
+              <h5>Business</h5>
+              <p>Set yourself up for success, learn the key business analysis concepts to thrive in your Business Analyst career.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--====================== END OF CATEGORIES =====================-->
+
+
+
+
+
+
+
+
+      <section class="courses">
+          <h2>Our Popular Courses</h2>
+          <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course16.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Introduction to cloud computing</h4>
+                    <p>
+                        This course introduces you to the core concepts of cloud computing. 
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course18.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>AWS Certifications</h4>
+                    <p>
+                        See All Available Exams. Earn an AWS Credential.Validate your cloud knowledge.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course15.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Intro to corporate finance</h4>
+                    <p>
+                        Learn key financial concepts for evaluating and valuing investment opportunities.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+          </div>
+      </section>
+      <!--====================== END OF COURSES =====================-->
+
+
+
+
+
+
+
+
+
+      <section class="faqs">
+          <h2>Frequently Asked Questions</h2>
+          <div class="container faqs__container">
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What makes eTutor different?</h4>
+                      <p>
+                        It might seem like you have a lot of choices when it comes to resources that can improve your skills. But with how quickly technology is evolving, you can end up wasting a lot of time (and money) using the wrong tools.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>How do the five free weekly courses work?</h4>
+                      <p>
+                        We want you to take our courses for a spin, so you can see how they'll help you build skills in record time. We have thousands of courses in our platform, but five are free every week and cover critical topics like DevOps, software development, security, data and more.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What skills can I build with eTutor?</h4>
+                      <p>
+                        There are a lot of platform experiences on Pluralsight that help you build skills in different ways. But, the best way to understand the eTutor course library is to take a look at our content.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>Who authors eTutor content?</h4>
+                      <p>
+                        Our authors are expert practitioners with years of real-world professional experience in their fields. On average, we accept less than ten percent of applicants who apply to join our author network. They are selected both on their expertise and teaching ability.
+
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What do eTutor courses include?</h4>
+                      <p>
+                        Each eTutor course is created, owned and managed by the instructor(s). The foundation of each eTutor course are its lectures, which can include videos, slides, and text. In addition, instructors can add resources and various types of practice activities, as a way to enhance the learning experience of students. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What languages can courses be taught in?</h4>
+                      <p>
+                        Most world languages are selectable as the home language for a eTutor course you teach, and you are welcome to create a course in any available one you wish. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>How do I take a eTutor course?</h4>
+                      <p>
+                        eTutor courses are entirely on-demand and they can be accessed from several different devices and platforms, including a desktop, laptop, and our mobile app. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do I get my course materials on your site?</h4>
+                    <p>
+                        Since we function primarily as an on-demand, video-based platform, you’ll need to upload your video files directly to eTutor. In other words, students must be able to view your course lectures on the eTutor platform.
+                    </p>
+                </div>
+            </article>
+          </div>
+      </section>
+      <!--====================== END OF FAQs =====================-->
+
+
+
+
+
+
+
+      <section class="container testimonials__container mySwiper">
+          <h2>Students' Testimonials</h2>
+          <div class="swiper-wrapper">
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar1.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Heather Abbott</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                          "The biggest part of the digital transformation to me is acceleration. Pluralsight is a key part of how Nasdaq is trying to keep up and be ahead. We’re only as good as our teams are."
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar2.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Adam Abrevaya</h5>
+                      <small>Web Developer</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        "A world without eTutor Flow is one without hard data and no real evidence of how things are going. As engineering teams get larger, it’s more complicated; more repos, more code, more people.""
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar3.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Kelly Mathews</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        "I have been a fan of eTutor for a long time and currently have over 85 courses in my account. I find the platform user friendly and you can contact the instructors no matter how long ago the course was posted."
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar4.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>John Smith</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        "I enjoyed learn the new skills for life coaching and health and wellness. It allowed me to learn about nutrition and ways to be healthy and help others. Learning from the instructor and the easy to follow step gave me motivation and wanting to learn more.""
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar5.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Jannet Doe</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        "Many of my coworkers choose to use eTutor for continuing education. I feel it has the best selection, training and curriculum vs others I have tried. Yes, the courses may be longer than others, but they're more detailed."
+                      </p>
+                  </div>
+              </article>
+          </div>
+          <div class="swiper-pagination"></div>
+      </section>
+      <!--====================== END OF TESTIMONIALS =====================-->
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="container footer__container">
+          <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>eTUTOR</h4></a>
+            <p>
+                eTutor is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.
+            </p>
+          </div>
+  
+          <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+              <p>+1682-999-9999</p>
+              <p>etutor@gmail.com</p>
+            </div>
+  
+            <ul class="footer__socials">
+              <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyrights © eTutor. All rights reserved.</small>
+        </div>
+      </footer>
+
+
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+
+
+      <script>
+          // slides for testimonials section
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+      </script>
+
+</body>
+</html>
